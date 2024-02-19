@@ -197,24 +197,29 @@ nav button#menuButton{
 }
 
 .about{
-    padding: 110px;
+    padding: 90px;
     display: flex;
     align-items: center;
     gap: 60px; 
 }
 
-.about .left{
+/* .about .left{
     background-color: #deebee;
     border-radius: 10px 10px 0 0;
 }
 
 .about .left img{
     width:275px;
-}
+} */
 
 .about .right p{
     font-size: 16px;
     margin-top: 30px;
+}
+
+.about .right p span{
+    color: #5e3bee;
+    font-weight: bold;
 }
 
 .portfolio{
